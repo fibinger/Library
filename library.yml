@@ -1,0 +1,10 @@
+dbhost: localhost
+dbport: 27017
+dbname: library
+
+http:
+  rootPath: /library/*  # Default is /*
+
+logging:
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: DEBUG
